@@ -1,0 +1,57 @@
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 45%;
+    max-height: 950px;
+    padding: 2.27rem 1.16rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+  }
+  
+  .Playlist input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    border-bottom: 1px solid #6f6f6f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+  }
+  
+  .Playlist .Submit {
+    cursor: pointer;
+    width: 10.11rem;
+    padding: .77rem 0;
+    margin-top: 2rem;
+    border-radius: 54px;
+    background-color: #3e188490;
+    text-align: center;
+    color: white;
+    font-size: .833rem;
+    transition: background-color .25s;
+}
+  
+      
+  
+  
+.Playlist .Submit:hover {
+      background-color: rgba(110, 38, 140, 0.7);
+  }
+  
+  
+ 
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .Playlist {
+      width: 90%;
+    }
+  }
