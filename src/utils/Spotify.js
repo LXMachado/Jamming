@@ -1,6 +1,6 @@
 let accessToken = "";
 const clientId = '44a445b81f7b496fb807f311e431fad0';
-const redirectUri = 'http://localhost:3000';
+const redirectUri = 'https://neon-llama-a4de36.netlify.app/';
 
 const Spotify = {
   async getAccessToken() {
